@@ -1,10 +1,12 @@
-# Práctica 5. Programación Orientada a Objetos en TypeScript
+# Práctica 5. Programación Orientada a Objetos en TypeScript. Tests Unitarios con Jest.
 ### Factor de ponderación: 6
 
 ### Objetivos
 Los objetivos de esta práctica son:
 * Poner en práctica metodologías y conceptos de Programación Orientada a Objetos en TypeScript.
 * Poner en práctica Principios y Buenas prácticas de programación Orientada a Objetos.
+* Ser capaz de desarrollar y ejecutar test unitarios utilizando
+  [Jest](https://jestjs.io/)
 * Practicar la depuración de programas TypeScript usando Visual Studio Code.
 
 ### Rúbrica de evaluacion del ejercicio
@@ -62,6 +64,35 @@ JSDoc para uno de los ejercicios de la práctica.
 
 Configure un fichero `package.json` en el directorio raíz de su de cada uno de sus ejercicios, de modo que ejecutando 
 `npm install` queden instaladas todas las dependencias del proyecto.
+
+### Unit Testing con Jest
+Realice en TypeScript cada uno de los siguientes problemas de
+[Jutge](https://jutge.org/)
+haciendo que la entrada que requieran los programas que solucionan el problema se tome desde la entrada
+estándar (`stdin`).
+Para validar su solución en Jutge, suba a la plataforma el fichero JS resultado de la compilación de su
+programa TypeScript.
+
+Haga también que los programas incluyan documentación en formato JSDoc (TypeDoc). 
+Se propone desarrollar una página *índice* desde la que se enlacen las páginas de documentación de cada uno de
+estos programas.
+
+Desarrolle tests unitarios en 
+[Jest](https://jestjs.io/)
+para probar la corrección de cada una de las soluciones.
+Aparte de los tests públicos de Jutge, incluya al menos un test test adicional para comprobar situaciones que
+considere relevantes.
+Si su solución se basa en varias funciones, desarrolle tests para cada una de ellas.
+
+1. [P34279](https://jutge.org/problems/P34279) Add one Second.
+2. [P51126](https://jutge.org/problems/P51126) Intervals (I)
+3. [P33839](https://jutge.org/problems/P33839) Sum of Digits. Para este problema, simplifique la salida de
+modo que ésta se limite a un único número (la suma de los dígitos).
+4. [P80660](https://jutge.org/problems/P80660) The sequence of Collatz
+5. [P91173](https://jutge.org/problems/P91173_en) Collatz pseudo-sequences (1)
+6. [P11916](https://jutge.org/problems/P11916_en) Approximation of e. Simplifique la salida del programa para
+que se limite a un solo número en punto flotante (el valor de e).
+7. [P76024](https://jutge.org/problems/P76024_en) Sum of fractions
 
 ### 1.- La clase *Racional*
 Un 
