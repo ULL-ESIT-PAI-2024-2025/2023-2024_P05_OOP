@@ -68,18 +68,13 @@ Configure un fichero `package.json` en el directorio raíz de su de cada uno de 
 ### Unit Testing con Jest
 Realice en TypeScript cada uno de los siguientes problemas de
 [Jutge](https://jutge.org/)
-haciendo que la entrada que requieran los programas que solucionan el problema se tome desde la entrada
-estándar (`stdin`).
+haciendo que la entrada que requieran los programas se lea desde la entrada estándar (`stdin`).
 Para validar su solución en Jutge, suba a la plataforma el fichero JS resultado de la compilación de su
 programa TypeScript.
 
-Haga también que los programas incluyan documentación en formato JSDoc (TypeDoc). 
-Se propone desarrollar una página *índice* desde la que se enlacen las páginas de documentación de cada uno de
-estos programas.
-
-Desarrolle tests unitarios en 
+Para cada uno de los programas, desarrolle tests unitarios en 
 [Jest](https://jestjs.io/)
-para probar la corrección de cada una de las soluciones.
+para probar la corrección de sus soluciones.
 Aparte de los tests públicos de Jutge, incluya al menos un test test adicional para comprobar situaciones que
 considere relevantes.
 Si su solución se basa en varias funciones, desarrolle tests para cada una de ellas.
@@ -93,6 +88,10 @@ modo que ésta se limite a un único número (la suma de los dígitos).
 6. [P11916](https://jutge.org/problems/P11916_en) Approximation of e. Simplifique la salida del programa para
 que se limite a un solo número en punto flotante (el valor de e).
 7. [P76024](https://jutge.org/problems/P76024_en) Sum of fractions
+
+Haga también que los programas incluyan documentación en formato JSDoc (TypeDoc). 
+Se propone desarrollar una página *índice* desde la que se enlacen las páginas de documentación de cada uno de
+estos programas.
 
 ### 1.- La clase *Racional*
 Un 
