@@ -72,7 +72,7 @@ haciendo que la entrada que requieran los programas se lea desde la entrada est�
 Para validar su solución en Jutge, suba a la plataforma el fichero JS resultado de la compilación de su
 programa TypeScript.
 
-Para cada uno de los programas, desarrolle antes de realizar el programa, tests unitarios en 
+Para cada uno de los problemas, desarrolle antes de realizar el programa, tests unitarios en 
 [Jest](https://jestjs.io/)
 para probar la corrección de sus soluciones, una vez que desarrolle las mismas con posterioridad.
 Aparte de los tests públicos de Jutge, incluya al menos un test test adicional para comprobar situaciones que
